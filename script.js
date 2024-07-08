@@ -13,7 +13,6 @@ fetch('./data.json')
     .then(response => response.json())
     .then(data => {
         questions = data;
-        // questions = shuffleArray(questions);
         localStorage.setItem('questions', JSON.stringify(questions));
     });
 
@@ -69,6 +68,8 @@ function displayPlayers() {
 }
 
 function startRound() {
+    const countRounds = document.getElementById('countRounds');
+    countRounds.textContent = 'Ronda: ' + round;
     if (round > totalRounds) {
         endGame();
         return;
@@ -88,17 +89,26 @@ function startTurn() {
     let question = questions[currentQuestionIndex];
     document.getElementById('questionText').innerText = question.question;
 
-    let timer = setTimeout(() => {
-        nextTurn();
-    }, 60000);
+    const timerText = document.getElementById('timerText');
+
+    let timeLeft = 60;
+    timerText.textContent = timeLeft + 's';
+    const timerInterval = setInterval(() => {
+        timeLeft--;
+        timerText.textContent = timeLeft + 's';
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            nextTurn();
+        }
+    }, 1000);
 
     document.getElementById('skipBtn').onclick = () => {
-        clearTimeout(timer);
+        clearInterval(timerInterval);
         nextTurn();
     };
 
     document.getElementById('confirmBtn').onclick = () => {
-        clearTimeout(timer);
+        clearInterval(timerInterval);
         currentPlayer.score += question.score;
         document.getElementById(`score-${currentPlayer.name}`).innerText = currentPlayer.score;
         nextTurn();
@@ -108,7 +118,6 @@ function startTurn() {
 function nextTurn() {
     currentPlayerIndex++;
     if (currentPlayerIndex >= players.length) {
-        //currentQuestionIndex++;
         currentQuestionIndex = aleatorio(1, questions.length);
         round++;
         startRound();
@@ -130,16 +139,15 @@ function endGame() {
     if (game) {
         game.innerHTML = `
             <h1>Resultados</h1>
-            <h3>${resultText}</h3>`;
+            <h3>${resultText}</h3>
+            <button id="newGameBtn">Nuevo Juego</button>`;
     }
-}
 
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
+    document.getElementById('newGameBtn').onclick = () => {
+        localStorage.removeItem('players');
+        localStorage.removeItem('questions');
+        window.location.href = './index.html';
+    };
 }
 
 function aleatorio(inferior, superior) {
