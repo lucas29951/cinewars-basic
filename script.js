@@ -13,7 +13,7 @@ fetch('./data.json')
     .then(response => response.json())
     .then(data => {
         questions = data;
-        questions = shuffleArray(questions);
+        // questions = shuffleArray(questions);
         localStorage.setItem('questions', JSON.stringify(questions));
     });
 
@@ -84,6 +84,7 @@ function startTurn() {
     document.querySelectorAll('.player').forEach(div => div.classList.remove('active'));
     document.getElementById(`player-${currentPlayer.name}`).classList.add('active');
 
+    currentQuestionIndex = aleatorio(1, questions.length);
     let question = questions[currentQuestionIndex];
     document.getElementById('questionText').innerText = question.question;
 
@@ -107,7 +108,8 @@ function startTurn() {
 function nextTurn() {
     currentPlayerIndex++;
     if (currentPlayerIndex >= players.length) {
-        currentQuestionIndex++;
+        //currentQuestionIndex++;
+        currentQuestionIndex = aleatorio(1, questions.length);
         round++;
         startRound();
     } else {
@@ -140,3 +142,9 @@ function shuffleArray(array) {
     return array;
 }
 
+function aleatorio(inferior, superior) {
+    var numPosibilidades = superior - inferior;
+    var aleatorio = Math.random() * (numPosibilidades + 1);
+    aleatorio = Math.floor(aleatorio);
+    return inferior + aleatorio;
+}
