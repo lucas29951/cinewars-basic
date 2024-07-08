@@ -1,0 +1,82 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #FFD700;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px;
+}
+
+button:disabled {
+    background-color: #555;
+}
+
+#playersContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.player {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.active {
+    border: 2px solid #FFD700;
+}
+
+#questionContainer {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#questionText {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#skipBtn, #confirmBtn {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+#skipBtn {
+    background-color: #ff0000;
+}
+
+#confirmBtn {
+    background-color: #00ff00;
+}
+
+#skipBtn:hover, #confirmBtn:hover {
+    background-color: #666;
+}
