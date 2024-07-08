@@ -1,0 +1,443 @@
+[
+    {
+        "id": 1,
+        "question": "Películas donde los animales hablen",
+        "score": 10
+    },
+    {
+        "id": 2,
+        "question": "Películas con más de 3 secuelas",
+        "score": 20
+    },
+    {
+        "id": 3,
+        "question": "Películas basadas en cómics",
+        "score": 10
+    },
+    {
+        "id": 4,
+        "question": "Películas dirigidas por mujeres",
+        "score": 20
+    },
+    {
+        "id": 5,
+        "question": "Películas que ganaron un Óscar a Mejor Película",
+        "score": 30
+    },
+    {
+        "id": 6,
+        "question": "Películas que duren más de 3 horas",
+        "score": 20
+    },
+    {
+        "id": 7,
+        "question": "Películas protagonizadas por Tom Hanks",
+        "score": 10
+    },
+    {
+        "id": 8,
+        "question": "Películas de terror de los años 80",
+        "score": 20
+    },
+    {
+        "id": 9,
+        "question": "Películas con robots o inteligencia artificial",
+        "score": 10
+    },
+    {
+        "id": 10,
+        "question": "Películas que se desarrollen en el espacio",
+        "score": 20
+    },
+    {
+        "id": 11,
+        "question": "Películas con banda sonora de Hans Zimmer",
+        "score": 30
+    },
+    {
+        "id": 12,
+        "question": "Películas que sean remakes",
+        "score": 10
+    },
+    {
+        "id": 13,
+        "question": "Películas que sucedan en una sola noche",
+        "score": 20
+    },
+    {
+        "id": 14,
+        "question": "Películas basadas en hechos reales",
+        "score": 10
+    },
+    {
+        "id": 15,
+        "question": "Películas ganadoras de la Palma de Oro en Cannes",
+        "score": 30
+    },
+    {
+        "id": 16,
+        "question": "Películas de animación stop-motion",
+        "score": 20
+    },
+    {
+        "id": 17,
+        "question": "Películas sobre viajes en el tiempo",
+        "score": 10
+    },
+    {
+        "id": 18,
+        "question": "Películas filmadas en blanco y negro después del 2000",
+        "score": 30
+    },
+    {
+        "id": 19,
+        "question": "Películas dirigidas por Quentin Tarantino",
+        "score": 10
+    },
+    {
+        "id": 20,
+        "question": "Películas con un giro de trama inesperado",
+        "score": 20
+    },
+    {
+        "id": 21,
+        "question": "Películas con más de una nominación al Óscar en 2020",
+        "score": 30
+    },
+    {
+        "id": 22,
+        "question": "Películas basadas en novelas de Stephen King",
+        "score": 20
+    },
+    {
+        "id": 23,
+        "question": "Películas con música de John Williams",
+        "score": 10
+    },
+    {
+        "id": 24,
+        "question": "Películas de ciencia ficción de los años 90",
+        "score": 20
+    },
+    {
+        "id": 25,
+        "question": "Películas con menos de 10 actores en el reparto",
+        "score": 30
+    },
+    {
+        "id": 26,
+        "question": "Películas ganadoras de un Globo de Oro",
+        "score": 20
+    },
+    {
+        "id": 27,
+        "question": "Películas donde el protagonista sea un villano",
+        "score": 20
+    },
+    {
+        "id": 28,
+        "question": "Películas ambientadas en la Segunda Guerra Mundial",
+        "score": 10
+    },
+    {
+        "id": 29,
+        "question": "Películas con una calificación de 8+ en IMDb",
+        "score": 30
+    },
+    {
+        "id": 30,
+        "question": "Películas ganadoras del BAFTA a Mejor Película",
+        "score": 30
+    },
+    {
+        "id": 31,
+        "question": "Películas con personajes que tengan superpoderes",
+        "score": 10
+    },
+    {
+        "id": 32,
+        "question": "Películas filmadas en más de tres países",
+        "score": 30
+    },
+    {
+        "id": 33,
+        "question": "Películas donde el título sea una sola palabra",
+        "score": 10
+    },
+    {
+        "id": 34,
+        "question": "Películas con escenas post-créditos",
+        "score": 10
+    },
+    {
+        "id": 35,
+        "question": "Películas ganadoras de un premio en Sundance",
+        "score": 20
+    },
+    {
+        "id": 36,
+        "question": "Películas donde la trama gire en torno a un robo",
+        "score": 20
+    },
+    {
+        "id": 37,
+        "question": "Películas sobre deportes",
+        "score": 10
+    },
+    {
+        "id": 38,
+        "question": "Películas ambientadas en un futuro distópico",
+        "score": 20
+    },
+    {
+        "id": 39,
+        "question": "Películas con un presupuesto de más de 200 millones de dólares",
+        "score": 30
+    },
+    {
+        "id": 40,
+        "question": "Películas que se hayan estrenado en Navidad",
+        "score": 10
+    },
+    {
+        "id": 41,
+        "question": "Películas con un protagonista infantil",
+        "score": 10
+    },
+    {
+        "id": 42,
+        "question": "Películas con más de 2 horas y media de duración",
+        "score": 20
+    },
+    {
+        "id": 43,
+        "question": "Películas animadas que no sean de Disney",
+        "score": 20
+    },
+    {
+        "id": 44,
+        "question": "Películas filmadas en una sola toma continua",
+        "score": 30
+    },
+    {
+        "id": 45,
+        "question": "Películas de ciencia ficción ambientadas en el espacio",
+        "score": 20
+    },
+    {
+        "id": 46,
+        "question": "Películas animadas de Disney",
+        "score": 10
+    },
+    {
+        "id": 47,
+        "question": "Películas basadas en libros",
+        "score": 10
+    },
+    {
+        "id": 48,
+        "question": "Películas de superhéroes de Marvel",
+        "score": 20
+    },
+    {
+        "id": 49,
+        "question": "Películas ganadoras del Oscar a la Mejor Película",
+        "score": 30
+    },
+    {
+        "id": 50,
+        "question": "Películas de terror con clasificación R",
+        "score": 20
+    },
+    {
+        "id": 51,
+        "question": "Películas de aventuras que involucren tesoros perdidos",
+        "score": 20
+    },
+    {
+        "id": 52,
+        "question": "Películas románticas ambientadas en París",
+        "score": 10
+    },
+    {
+        "id": 53,
+        "question": "Películas de comedia protagonizadas por Adam Sandler",
+        "score": 10
+    },
+    {
+        "id": 54,
+        "question": "Películas de ciencia ficción distópicas",
+        "score": 20
+    },
+    {
+        "id": 55,
+        "question": "Películas de animación japonesa (anime)",
+        "score": 10
+    },
+    {
+        "id": 56,
+        "question": "Películas de misterio con giros inesperados",
+        "score": 30
+    },
+    {
+        "id": 57,
+        "question": "Películas de guerra basadas en hechos reales",
+        "score": 30
+    },
+    {
+        "id": 58,
+        "question": "Películas clásicas en blanco y negro",
+        "score": 20
+    },
+    {
+        "id": 59,
+        "question": "Películas de aventuras con viajes en el tiempo",
+        "score": 20
+    },
+    {
+        "id": 60,
+        "question": "Películas de deportes inspiradoras",
+        "score": 10
+    },
+    {
+        "id": 61,
+        "question": "Películas de fantasía con mundos mágicos",
+        "score": 10
+    },
+    {
+        "id": 62,
+        "question": "Películas de crímenes con detectives brillantes",
+        "score": 20
+    },
+    {
+        "id": 63,
+        "question": "Películas de comedia romántica de los años 80",
+        "score": 10
+    },
+    {
+        "id": 64,
+        "question": "Películas de animación de Pixar",
+        "score": 10
+    },
+    {
+        "id": 65,
+        "question": "Películas basadas en hechos históricos",
+        "score": 20
+    },
+    {
+        "id": 66,
+        "question": "Películas de suspenso con protagonistas femeninas",
+        "score": 30
+    },
+    {
+        "id": 67,
+        "question": "Películas de ciencia ficción con inteligencia artificial",
+        
+        "score": 20
+    },
+    {
+        "id": 68,
+        "question": "Películas de guerra situadas en la Segunda Guerra Mundial",
+        "score": 20
+    },
+    {
+        "id": 69,
+        "question": "Películas de terror psicológico",
+        "score": 30
+    },
+    {
+        "id": 70,
+        "question": "Películas de acción con escenas espectaculares de persecución",
+        "score": 20
+    },
+    {
+        "id": 71,
+        "question": "Películas de animales salvajes en su hábitat natural",
+        "score": 10
+    },
+    {
+        "id": 72,
+        "question": "Películas de comedia de enredos familiares",
+        "score": 10
+    },
+    {
+        "id": 73,
+        "question": "Películas de crimen organizado",
+        "score": 20
+    },
+    {
+        "id": 74,
+        "question": "Películas de ciencia ficción cyberpunk",
+        "score": 30
+    },
+    {
+        "id": 75,
+        "question": "Películas de drama que aborden temas sociales",
+        "score": 20
+    },
+    {
+        "id": 76,
+        "question": "Películas de comedia negra",
+        "score": 30
+    },
+    {
+        "id": 77,
+        "question": "Películas de fantasía épica",
+        "score": 20
+    },
+    {
+        "id": 78,
+        "question": "Películas de misterio con tramas de conspiración",
+        "score": 30
+    },
+    {
+        "id": 79,
+        "question": "Películas de acción con héroes retirados",
+        "score": 20
+    },
+    {
+        "id": 80,
+        "question": "Películas de romance con protagonistas atípicos",
+        "score": 10
+    },
+    {
+        "id": 81,
+        "question": "Películas de comedia con bromas clásicas",
+        "score": 10
+    },
+    {
+        "id": 82,
+        "question": "Películas de terror sobrenatural",
+        "score": 20
+    },
+    {
+        "id": 83,
+        "question": "Películas de aventuras submarinas",
+        "score": 20
+    },
+    {
+        "id": 84,
+        "question": "Películas de ciencia ficción con viajes intergalácticos",
+        "score": 30
+    },
+    {
+        "id": 85,
+        "question": "Películas de misterio basadas en libros de detectives",
+        "score": 30
+    },
+    {
+        "id": 86,
+        "question": "Películas de guerra centradas en la Guerra Fría",
+        "score": 20
+    },
+    {
+        "id": 87,
+        "question": "Películas de acción con secuencias de artes marciales",
+        "score": 20
+    },
+    {
+        "id": 88,
+        "question": "Películas de superhéroes de DC",
+        "score": 10
+    }
+]
